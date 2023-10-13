@@ -1,0 +1,12 @@
+com\yupi\jinapicommon\model\entity\UserInterfaceInfo.class
+com\yupi\jinapicommon\model\enums\PostReviewStatusEnum.class
+com\yupi\jinapicommon\model\entity\User.class
+com\yupi\jinapicommon\model\entity\InterfaceInfo.class
+com\yupi\jinapicommon\model\vo\UserVO.class
+com\yupi\jinapicommon\model\enums\InterfaceInfoStatusEnum.class
+com\yupi\jinapicommon\service\InnerUserService.class
+com\yupi\jinapicommon\model\entity\Post.class
+com\yupi\jinapicommon\model\vo\PostVO.class
+com\yupi\jinapicommon\model\enums\PostGenderEnum.class
+com\yupi\jinapicommon\service\InnerUserInterfaceInfoService.class
+com\yupi\jinapicommon\service\InnerInterfaceInfoService.class
