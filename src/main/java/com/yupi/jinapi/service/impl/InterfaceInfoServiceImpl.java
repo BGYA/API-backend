@@ -6,7 +6,7 @@ import com.yupi.jinapi.exception.BusinessException;
 import com.yupi.jinapi.exception.ThrowUtils;
 import com.yupi.jinapi.mapper.InterfaceInfoMapper;
 import com.yupi.jinapi.service.InterfaceInfoService;
-import com.yupi.jinapi.model.entity.InterfaceInfo;
+import com.yupi.jinapicommon.model.entity.InterfaceInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

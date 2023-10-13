@@ -1,6 +1,6 @@
 package com.yupi.jinapi.service;
 
-import com.yupi.jinapi.model.entity.User;
+import com.yupi.jinapicommon.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,9 @@
 package com.yupi.jinapi.mapper;
 
-import com.yupi.jinapi.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.yupi.jinapicommon.model.entity.UserInterfaceInfo;
+
+import java.util.List;
 
 /**
 * @author SanJin
@@ -10,7 +12,12 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @Entity com.yupi.jinapi.model.entity.UserInterfaceInfo
 */
 public interface UserInterfaceInfoMapper extends BaseMapper<UserInterfaceInfo> {
-
+    //select interfaceInfoId,sum(totalNum) as totalNum
+    //from user_interface_info
+    //group by interfaceInfoId
+    //order by totalNum desc
+    //limit 3;
+    List<UserInterfaceInfo> listTopInvokeInterfaceInfo(int limit);
 }
 
 

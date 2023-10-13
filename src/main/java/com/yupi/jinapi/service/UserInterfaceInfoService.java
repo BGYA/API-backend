@@ -1,7 +1,7 @@
 package com.yupi.jinapi.service;
 
-import com.yupi.jinapi.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yupi.jinapicommon.model.entity.UserInterfaceInfo;
 
 /**
 * @author SanJin
@@ -15,7 +15,7 @@ public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
      * @param userinterfaceInfo
      * @param add
      */
-    void validUserInterfaceInfo(com.yupi.jinapi.model.entity.UserInterfaceInfo userinterfaceInfo, boolean add);
+    void validUserInterfaceInfo(UserInterfaceInfo userinterfaceInfo, boolean add);
 
     /**
      * 调用接口次数统计

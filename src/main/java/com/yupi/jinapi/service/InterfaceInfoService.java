@@ -1,7 +1,7 @@
 package com.yupi.jinapi.service;
 
-import com.yupi.jinapi.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yupi.jinapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author SanJin

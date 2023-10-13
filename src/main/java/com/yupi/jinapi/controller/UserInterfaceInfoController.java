@@ -11,11 +11,11 @@ import com.yupi.jinapi.exception.BusinessException;
 import com.yupi.jinapi.model.dto.userinterfaceinfo.UserInterfaceInfoAddRequest;
 import com.yupi.jinapi.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest;
 import com.yupi.jinapi.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
-import com.yupi.jinapi.model.entity.User;
-import com.yupi.jinapi.model.entity.UserInterfaceInfo;
 import com.yupi.jinapi.service.UserInterfaceInfoService;
 import com.yupi.jinapi.service.UserService;
 
+import com.yupi.jinapicommon.model.entity.User;
+import com.yupi.jinapicommon.model.entity.UserInterfaceInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

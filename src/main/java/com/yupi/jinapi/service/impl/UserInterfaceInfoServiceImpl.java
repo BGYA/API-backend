@@ -4,9 +4,9 @@ import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yupi.jinapi.common.ErrorCode;
 import com.yupi.jinapi.exception.BusinessException;
-import com.yupi.jinapi.model.entity.UserInterfaceInfo;
 import com.yupi.jinapi.service.UserInterfaceInfoService;
 import com.yupi.jinapi.mapper.UserInterfaceInfoMapper;
+import com.yupi.jinapicommon.model.entity.UserInterfaceInfo;
 import org.springframework.stereotype.Service;
 
 /**

@@ -10,14 +10,12 @@ import com.yupi.jinapi.common.ResultUtils;
 import com.yupi.jinapi.constant.CommonConstant;
 import com.yupi.jinapi.exception.BusinessException;
 import com.yupi.jinapi.model.dto.post.PostAddRequest;
-import com.yupi.jinapi.model.dto.post.PostDoThumbRequest;
 import com.yupi.jinapi.model.dto.post.PostQueryRequest;
 import com.yupi.jinapi.model.dto.post.PostUpdateRequest;
 import com.yupi.jinapi.model.entity.Post;
-import com.yupi.jinapi.model.entity.User;
-import com.yupi.jinapi.model.vo.PostVO;
 import com.yupi.jinapi.service.PostService;
 import com.yupi.jinapi.service.UserService;
+import com.yupi.jinapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -25,11 +23,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.*;
-import java.util.stream.Collectors;
 
 /**
  * 帖子接口
